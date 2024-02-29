@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "settings": {
+        "java.checkstyle.configuration": "./cnf/checkstyle-project-default.xml"
+      }
+    },
+    {
+      "path": "cnf"
+    },
+    {
+      "path": "projectA",
+      "settings": {
+        "java.checkstyle.configuration": "../cnf/checkstyle-project-a.xml"
+      }
+    },
+    {
+      "path": "projectB",
+      "settings": {
+        "java.checkstyle.configuration": "../cnf/checkstyle-project-b.xml"
+      }
+    }
+  ],
+  "settings": {
+    "java.checkstyle.configuration": "./cnf/checkstyle-project-default.xml"
+  }
+}
